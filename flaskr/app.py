@@ -10,7 +10,7 @@ app = Flask(__name__)
 def index():
     return render_template("index.html")
 
-
+#this is comment
 @app.route('/json/')
 def json():
     return {"hello": "world"}
